@@ -1,0 +1,166 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+/*----------------------------NAVIGATION BAR-----------------------*/
+.navbar
+{
+    background: hsla(206, 100%, 45%, 0.712);
+    height: 82px;
+    width:100%;
+    padding: 10px;
+    border-radius: 0;
+    box-sizing: border-box;
+   
+}
+nav.navbar
+{
+    border-bottom: 1px solid yellow;
+    margin-bottom:0;
+    z-index: 16;
+}
+a.text-center.nav-li
+{
+    width: 130px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #ffffff;
+
+}
+
+a.text-center.nav-li:hover
+{
+    background-color:#3e99df;
+    border-radius: 15px;
+    color: rgb(255, 255, 0);
+}
+
+/*-------------------------------button responsive-----------------------*/
+button.navbar-toggle
+{
+    color: #ffffff;
+    border: solid 1px;
+}
+button.navbar-toggle span
+{
+    color: #ffffff;
+    border: solid 1px;
+}
+/*-------------------------------logo and brand---------------------------*/
+#logo
+{
+    background:url(logo.png) center;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 70px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+div.navbar-brand a
+{
+ color: #ffffff;
+ font-size: 40px;
+ margin-left: 5px;
+ text-decoration: none;
+ }
+
+/*-------------------------------------BANNER------------------------------*/
+#myCarousel
+{
+    margin-top: 20px;
+}
+img
+{
+    width: 100%;
+
+}
+.carousel-indicators
+{
+    position: relative;
+    
+}
+#slider-one
+{
+    border-radius: 50px;
+
+    background: url(grado.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#slider-two
+{
+    background: url(bannerprueba.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*#slider-tres
+{
+    background: url(bannetre.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}*/
+.row
+{
+    width: 100%;
+    margin: 0;
+}
+#historia
+{
+    margin-top: 80px;
+}
+#historia-h
+{
+    margin-top: 60px;
+    color: #ffffff;
+    font-size: 60px;
+}
+div.row.hola
+{
+    background: #0082e6;
+    margin-top:83px;
+    margin-right: 0;
+    margin-left: 0;
+}
+#intro
+{
+   /*background: url(wave.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;*/
+    margin: 0;
+}
+#wave
+{
+    position: relative;
+}
+#section
+{
+    position: absolute;
+    top: 420px;
+}
+#titulo
+{
+    margin-top: 240px;
+}
+#svg
+{
+    margin-top: 200px;
+    margin-left: 5%;
+    width: 350px;
+    height: 300px;
+    background: url(problem.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#quienes-somos{
+    margin-left: 15%;
+}
